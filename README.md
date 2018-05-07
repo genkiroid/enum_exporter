@@ -1,4 +1,6 @@
 # EnumExporter
+[![Build Status](https://travis-ci.org/genkiroid/enum_exporter.svg?branch=master)](https://travis-ci.org/genkiroid/enum_exporter)
+
 Rake task to export defined enum as some formats.
 
 ## Usage
