@@ -15,10 +15,8 @@ jobs:
       - name: Check out source code
         uses: actions/checkout@v3
 
-      - name: Setup ruby
+      - name: Setup ruby && test
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.5.1"
-
-      - name: Run tests
         run: bin/test
